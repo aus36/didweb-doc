@@ -1,1 +1,116 @@
-
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.w3.org/2018/credentials/examples/v1"
+    ],
+    "id": "urn:uuid:3978344f-8596-4c3a-a978-8fcaba3903c5",
+    "type": [
+      "VerifiablePresentation"
+    ],
+    "verifiableCredentials": [
+      {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://www.w3.org/2018/credentials/examples/v1"
+        ],
+        "id": "http://example.edu/credentials/58473",
+        "type": [
+          "VerifiableCredential"
+        ],
+        "issuer": "did:web:aus36.github.io:didweb-doc",
+        "issuanceDate": "2021-01-01T00:00:00Z",
+        "expirationDate": "2021-01-01T00:00:00Z",
+        "credentialSubject": {
+          "id": "did:web:aus36.github.io:didweb-doc",
+          "type": [
+            "eldest"
+          ],
+          "prev": "null",
+          "seqno": 0,
+          "tag": "signature"
+        },
+        "credentialStatus": {
+          "id": "https://example.edu/status/24",
+          "type": "CredentialStatusList2017"
+        },
+        "proof": {
+          "type": "Ed25519Signature2020",
+          "created": "2022-02-25T14:58:43Z",
+          "verificationMethod": "did:web:aus36.github.io:didweb-doc#key-0",
+          "proofPurpose": "assertionMethod",
+          "jws": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+        }
+      },
+      {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://www.w3.org/2018/credentials/examples/v1"
+        ],
+        "id": "http://example.edu/credentials/58473",
+        "type": [
+          "VerifiableCredential"
+        ],
+        "issuer": "did:web:aus36.github.io:didweb-doc",
+        "issuanceDate": "2021-01-01T00:00:00Z",
+        "expirationDate": "2021-01-01T00:00:00Z",
+        "credentialSubject": {
+          "id": "did:web:aus36.github.io:didweb-doc",
+          "type": [
+            "web_service_binding"
+          ],
+          "service": {
+            "name": "github", 
+            "username": "aus36"
+          },
+          "prev": "sre54g...",
+          "seqno": 1,
+          "tag": "signature"
+        },
+        "credentialStatus": {
+          "id": "https://example.edu/status/25",
+          "type": "CredentialStatusList2017"
+        },
+        "proof": {
+          "type": "Ed25519Signature2020",
+          "created": "2022-02-25T14:58:43Z",
+          "verificationMethod": "did:web:aus36.github.io:didweb-doc#key-0",
+          "proofPurpose": "assertionMethod",
+          "jws": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMzU2NDMzOTAiLCJuYW1lIjoiT09PbiBEb29kIiwiaWF0IjoxNTE2Nzk4MDIyfQ.FaLpm6OziBCa2FgjrABYXFNx0Vxa9Khh5iJNKKNQTAw"
+        }
+      },
+      {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://www.w3.org/2018/credentials/examples/v1"
+        ],
+        "id": "http://example.edu/credentials/58473",
+        "type": [
+          "VerifiableCredential"
+        ],
+        "issuer": "did:web:aus36.github.io:didweb-doc",
+        "issuanceDate": "2021-01-01T00:00:00Z",
+        "expirationDate": "2021-01-01T00:00:00Z",
+        "credentialSubject": {
+          "id": "did:web:aus36.github.io:didweb-doc",
+          "type": "revoke",
+          "revoke": {
+            "sig_ids": [ "038cd…", "f927c…" ]
+          },
+          "prev": "sre54g...",
+          "seqno": 2,
+          "tag": "signature"
+        },
+        "credentialStatus": {
+          "id": "https://tamuc.edu/status/26",
+          "type": "CredentialStatusList2017"
+        },
+        "proof": {
+          "type": "Ed25519Signature2020",
+          "created": "2022-02-25T14:58:43Z",
+          "verificationMethod": "did:web:aus36.github.io:didweb-doc#key-0",
+          "proofPurpose": "assertionMethod",
+          "proofValue": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjMzMzMzOTAiLCJuYW1lIjoiT09PbiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.J3_4UFoyoG36VUUHXwDz2BdswlDKenxT5vulqDktZKA"
+        }
+      }
+    ]
+  }
