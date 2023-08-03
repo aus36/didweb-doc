@@ -3,12 +3,12 @@
   "https://www.w3.org/ns/did/v1",
   "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:aus36.github.io/didweb-doc",
+  "id": "did:web:aus36.github.io:didweb-doc",
   "verificationMethod": [
   {
-      "id": "did:web:example.com#key-0",
+      "id": "did:web:aus36.github.io:didweb-doc#key-0",
       "type": "JsonWebKey2020",
-      "controller": "did:web:aus36.github.io/didweb-doc",
+      "controller": "did:web:aus36.github.io:didweb-doc",
       "publicKeyJwk": {
       "kty": "OKP",
       "crv": "Ed25519",
